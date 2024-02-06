@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.navbar {
+    background-color: #0f1111;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-logo {
+    height: 4rem;
+    width: 7rem;
+}
+
+.border:hover {
+    border: 2px solid white
+}
+
+.address-logo {
+    color: white;
+    margin-top: 11px;
+    text-align: center;
+}
+
+.address {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selectbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+
+
+}
+
+.searchlogo {
+    background-color: rgb(255 238 33);
+    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.3rem;
+    width: 3rem;
+
+
+}
+
+.searchbartext {
+    height: 2rem;
+    width: 35rem
+}
+
+.dropdown {
+    height: 2.3rem;
+}
+
+.flag {
+    height: 1rem;
+    width: 1rem;
+    margin-bottom: 2px;
+}
+
+.country {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tetxindia {
+    color: white;
+}
+
+.signin {
+    color: white;
+    margin-top: 11px;
+}
+
+.return {
+    color: white;
+    margin-top: 11px;
+}
+
+.cartimage {
+    color: white;
+    font-size: 2rem;
+
+}
+
+.carttext {
+    color: white;
+}
+
+.cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.navmain {
+    background-color: #232f3e;
+    height: 2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    background-color: gainsboro;
+    height: 44rem;
+    padding: 2rem;
+}
+
+.boder {
+    border: 1px solid black;
+    height: 21rem;
+    width: 20rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.new {
+    list-style: none;
+}
+
+.imgformat {
+    margin-top: 2rem;
+    height: 10rem;
+    width: 12rem;
+    margin-bottom: 1rem;
+}
+
+.link {
+    border: 1px solid black;
+    background: blanchedalmond;
+    color: white;
+}
+
+.link:hover {
+    border: 2px solid white;
+    background-color: #232f3e;
+}
+
+.two {
+    margin-top: 2rem;
+    background-color: white;
+}
+
+.one {
+    background-color: white;
+}
+
+.footermain {
+    /* border: 1px solid black; */
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerdivison1 {
+    text-align: center;
+}
+
+.footerdivison2 {
+    /* border: 1px solid black; */
+    background: rgb(189, 163, 31);
+    display: flex;
+    justify-content: center;
+    height: 2rem;
+    align-items: center;
+}
+
+.footerdivison3 {
+    font-size: small;
+}
+
+.lastbox {
+    background-color: #232f3e;
+    /* border: 2px solid white; */
+    height: 28rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    color: white;
+}
+
+.last {
+    justify-content: center;
+    display: flex;
+    height: 10rem;
+    width: 20rem;
+    align-items: center;
+}
